@@ -10,8 +10,8 @@
             "url": "https://github.com/btbias"
         },
         {
-            "name": "Midas",
-            "url": "https://github.com/xImidasIx"
+            "name": "HyperNova120",
+            "url": "https://github.com/HyperNova120"
         }
     ],
     "compatibility": {
@@ -19,10 +19,10 @@
         "verified": "13.350",
         "maximum": "13"
     },
-    "url": "https://github.com/xImidasIx/5e-complete",
-    "bugs": "https://github.com/xImidasIx/5e-complete/issues",
-    "manifest": "https://github.com/xImidasIx/5e-complete/releases/download/release-V13/module.json",
-    "download": "https://github.com/xImidasIx/5e-complete/releases/download/release-V13/5e-complete-V13.zip",
+    "url": "https://github.com/HyperNova120/5e-complete",
+    "bugs": "https://github.com/HyperNova120/5e-complete/issues",
+    "manifest": "https://github.com/HyperNova120/5e-complete/releases/download/release-V13/module.json",
+    "download": "https://github.com/HyperNova120/5e-complete/releases/download/release-V13/5e-complete-V13.zip",
     "protected": false,
     "coreTranslation": false,
     "packs": [
