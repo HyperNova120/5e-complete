@@ -3,16 +3,15 @@
     "title": "5e Complete Compendium",
     "description": "This module adds classes, subclasses, and other missing items from the D&D 5e SRD",
     "license": "The Unlicense",
-    "version": "0.3.10",
+    "version": "0.3.8",
     "authors": [
         {
             "name": "btbias",
-            "url": "https://github.com/btbias",
-            "discord": "btbias#9324"
+            "url": "https://github.com/btbias"
         },
         {
-            "name": "Midas",
-            "url": "https://github.com/xImidasIx"
+            "name": "HyperNova120",
+            "url": "https://github.com/HyperNova120"
         }
     ],
     "compatibility": {
@@ -22,11 +21,17 @@
     },
     "url": "https://github.com/HyperNova120/5e-complete",
     "bugs": "https://github.com/HyperNova120/5e-complete/issues",
-    "flags": {},
     "manifest": "https://github.com/HyperNova120/5e-complete/releases/download/release-V13/module.json",
     "download": "https://github.com/HyperNova120/5e-complete/releases/download/release-V13/5e-complete-V13.zip",
     "protected": false,
     "coreTranslation": false,
+    "flags": {
+      "dnd5e": {
+        "spellLists": [
+          "Compendium.completecompendium.5e-journals.JournalEntry.7iH4qANs2gxn0MIs"
+        ]
+      }
+    },
     "packs": [
         {
             "name": "5e-creatures",
@@ -35,8 +40,7 @@
             "path": "packs/5e-creatures.db",
             "entity": "Actor",
             "type": "Actor",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-backgrounds",
@@ -45,8 +49,7 @@
             "path": "packs/5e-backgrounds.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-background-features",
@@ -55,8 +58,7 @@
             "path": "packs/5e-background-features.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-classes",
@@ -65,8 +67,7 @@
             "path": "packs/5e-classes.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-class-features",
@@ -75,8 +76,7 @@
             "path": "packs/5e-class-features.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-creature-abilities",
@@ -85,8 +85,7 @@
             "path": "packs/5e-creature-abilities.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-feats",
@@ -95,8 +94,7 @@
             "path": "packs/5e-feats.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-items",
@@ -105,28 +103,25 @@
             "path": "packs/5e-items.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
-            "name": "5e-races",
-            "label": "5e Races",
+            "name": "5e-species",
+            "label": "5e Species",
             "system": "dnd5e",
-            "path": "packs/5e-races.db",
+            "path": "packs/5e-species.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
-            "name": "5e-racial-features",
-            "label": "5e Racial features",
+            "name": "5e-species-features",
+            "label": "5e Species features",
             "system": "dnd5e",
-            "path": "packs/5e-racial-features.db",
+            "path": "packs/5e-species-features.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-spells",
@@ -135,8 +130,7 @@
             "path": "packs/5e-spells.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-subclasses",
@@ -145,8 +139,16 @@
             "path": "packs/5e-subclasses.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
+        },
+        {
+            "name": "5e-journals",
+            "label": "5e Journals",
+            "system": "dnd5e",
+            "path": "packs/5e-journals.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry",
+            "private": false
         },
         {
             "name": "5e-macros",
@@ -155,18 +157,16 @@
             "path": "packs/5e-macros.db",
             "entity": "Macro",
             "type": "Macro",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
-            "name": "5e-roll-tables",
-            "label": "5e Roll-tables",
+            "name": "5e-tables",
+            "label": "5e Tables",
             "system": "dnd5e",
-            "path": "packs/5e-roll-tables.db",
+            "path": "packs/5e-tables.db",
             "entity": "RollTable",
             "type": "RollTable",
-            "private": false,
-            "flags": {}
+            "private": false
         },
         {
             "name": "5e-trade-goods",
@@ -175,8 +175,7 @@
             "path": "packs/5e-trade-goods.db",
             "entity": "Item",
             "type": "Item",
-            "private": false,
-            "flags": {}
+            "private": false
         }
     ],
     "packFolders": [
@@ -184,7 +183,6 @@
             "name": "D&D5e SRD Extended",
             "sorting": "m",
             "color": "#89b4fa",
-            "packs": [],
             "folders": [
                 {
                     "name": "Characters",
@@ -197,8 +195,8 @@
                         "5e-backgrounds",
                         "5e-background-features",
                         "5e-feats",
-                        "5e-races",
-                        "5e-racial-features"
+                        "5e-species",
+                        "5e-species-features"
                     ]
                 },
                 {
@@ -225,8 +223,9 @@
                     "sorting": "m",
                     "color": "#fab387",
                     "packs": [
-                        "5e-roll-tables",
-                        "5e-macros"
+                        "5e-tables",
+                        "5e-macros",
+                        "5e-journals"
                     ]
                 }
             ]
